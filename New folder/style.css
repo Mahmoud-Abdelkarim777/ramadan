@@ -36,7 +36,7 @@ body{
     }
     .box .font{
      color: yellow;
-     text-shadow:0px 0px 10px yellow ;
+    text-shadow:0px 0px 15px rgb(251, 255, 0) ;
     }
 
   }
