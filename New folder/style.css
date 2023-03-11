@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color:  rgb(88, 28, 0);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+    margin:20vh 0 0 40vw ;
+    
+}
+.box .imgs{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.box .imgs .r{
+   position: relative;
+   top: 4rem;
+    left: -11rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .imgs .a1{
+   position: relative;
+   top: -1rem;
+    left: -13rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .imgs .m{
+   position: relative;
+   top: -5rem;
+   left: -14rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .imgs .a2{
+   position: relative;
+   top: -7rem;
+   left: -14rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .imgs .d{
+   position: relative;
+   top: -5rem;
+   left: -14rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .imgs .a3{
+   position: relative;
+   top: -1rem;
+    left: -15rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .imgs .n{
+   position: relative;
+   top: 3rem;
+   left: -16rem;
+   width: 90px;
+   border-radius: 50%;
+}
+.box .font{
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:0px 0px 15px rgb(251, 255, 0) ;
+    position: relative;
+    left: -25px;
+}
+
+.box .img img{
+    width: 200px;
+    border-radius: 50% 50% 0 0;
+    margin: -18vh 0 0 0;
+}
+
+.box div:hover .f{
+    box-shadow: 0px 0px 100px rgb(251, 255, 0); 
+    background-color:rgba(180, 180, 11, 0.568);
+   
+  }
+@media  screen and (max-width: 600px) {
+    body {
+      background-color: rgb(88, 28, 0);
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        
+    }
+    .box .img img{
+      width: 165px;
+    border-radius: 50% 50% 0 0;
+    margin: -15vh 0 0 -47px;
+  }
+    .box .font{
+      color: yellow;
+      text-shadow: 0px 0px 15px rgb(251 255 0);
+      font-size: 16px;
+      position: relative;
+      left: -63px;
+    }
+    .box .imgs .r{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px; 
+        border-radius: 50%;
+     }
+     .box .imgs .a1{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px; 
+        border-radius: 50%;
+     }
+     .box .imgs .m{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px; 
+        border-radius: 50%;
+     }
+     .box .imgs .a2{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px; 
+        border-radius: 50%;
+     }
+     .box .imgs .d{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px; 
+        border-radius: 50%;
+     }
+     .box .imgs .a3{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px; 
+        border-radius: 50%;
+     }
+     .box .imgs .n{
+        position: relative;
+        top: -6rem;
+        left: -9rem;
+        height: 51px;
+        border-radius: 50%; 
+     }
+     
+  }
